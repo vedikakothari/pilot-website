@@ -1,0 +1,115 @@
+body {
+    background-image: url("images/background.jpg");
+}
+
+h1 {
+    color: #ffffff;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Consolas", Consolas, monospace;
+}
+
+a {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Consolas", Consolas, monospace;
+}
+
+
+h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+ul {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Consolas", Consolas, monospace;
+}
+
+ol {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Consolas", Consolas, monospace;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul {
+    background-color: #4f3a09;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    text-align: center;
+  
+}
+
+.gallery-pic { 
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    border-top: 25px solid white;
+    border-bottom: 70px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.pic-1 {
+    filter: sepia(40%) brightness(85%) contrast(110%) saturate(90%);
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.pic-2 {
+    filter: sepia(40%) saturate(120%) brightness(85%);
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.pic-3 {
+    filter: sepia(30%) contrast(80%);
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.pic-4 {
+    filter: sepia(30%) brightness(120%);
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.caption {
+    color: black;
+    position: relative;
+    top: -60px;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 40px;
+    margin: 0 0 -50px 0;
+}
